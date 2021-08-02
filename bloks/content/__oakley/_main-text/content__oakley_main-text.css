@@ -1,0 +1,8 @@
+.content__oakley_main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  min-height: 410px;
+}
