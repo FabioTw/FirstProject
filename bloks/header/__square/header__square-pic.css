@@ -1,13 +1,3 @@
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -17,5 +7,4 @@
   right: 0;
   z-index: 0;
   animation: rotation 20s linear infinite;
-
 }
