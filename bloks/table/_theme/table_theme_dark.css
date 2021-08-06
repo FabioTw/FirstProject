@@ -1,4 +1,4 @@
-.table__cell.table__theme_dark {
+.table__cell.table_theme_dark {
   width: 200px;
   margin-top: 80px;
   display: flex;
@@ -6,10 +6,10 @@
   z-index: 1;
 }
 
-.section-title.table__theme_dark {
+.section-title.table_theme_dark {
   margin-top: 90px;
 }
 
-.table.table__theme_dark {
+.table.table_theme_dark {
   margin-bottom: 90px;
 }
