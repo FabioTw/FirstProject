@@ -1,3 +1,36 @@
 .footer__column-link {
-  margin: 20px 0 16px;
+  margin: 20px 0 10px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link:nth-of-type(3n) {
+  margin: 0;
+}
+
+.footer__column-link:nth-of-type(2n) {
+  margin: 0 0 10px;
+}
+
+.footer__column-link:link {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.footer__column-link:visited {
+  color: #f2f2f2;
+  text-decoration: none;
+
+}
+
+.footer__column-link:hover {
+  color: #f2f2f2;
+ text-decoration: underline;
+
+}
+
+.footer__column-link:active {
+  color: #f2f2f2;
+  text-decoration: none;
 }

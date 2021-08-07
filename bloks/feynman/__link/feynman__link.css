@@ -2,4 +2,19 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
+.feynman__link:visited {
+  text-decoration: none;
+  color: #2F80ED;
 }

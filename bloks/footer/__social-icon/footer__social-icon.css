@@ -1,8 +1,13 @@
 .footer__social-icon {
   display: flex;
   flex-direction: column;
-  margin: 21px 0 16px;
+  margin: 0 6px 2.5px 0;
+  width: 16px;
+  height: 16px;
+  line-height: 18px;
+  box-sizing: border-box;
 }
 
-
-
+.footer__social-icon:hover {
+  box-shadow: -1px 1px 5px white;
+}
