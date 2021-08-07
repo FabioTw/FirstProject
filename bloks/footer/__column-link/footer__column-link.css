@@ -1,16 +1,17 @@
 .footer__column-link {
-  margin: 20px 0 10px;
+  margin: 0 0 10px;
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
 }
 
-.footer__column-link:nth-of-type(3n) {
+.footer__column-link:last-child {
   margin: 0;
 }
 
-.footer__column-link:nth-of-type(2n) {
-  margin: 0 0 10px;
+.footer__column-link:first-child {
+  margin: 20px 0 10px;
 }
 
 .footer__column-link:link {
